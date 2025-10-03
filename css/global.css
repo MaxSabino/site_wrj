@@ -536,6 +536,11 @@ section {
 }
 
 /* About Section */
+
+.p-op {
+  padding: 0px;
+  margin: 0px;
+}
 .about {
   background: var(--secondary-light);
 }
@@ -584,12 +589,18 @@ section {
 
 .about-visual {
   position: relative;
-  height: 500px;
+  height: 600px;
   background: var(--gradient-1);
+
+  background-image: url("../imagens/bg_about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   border-radius: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: right;
   overflow: hidden;
 }
 
@@ -620,13 +631,20 @@ section {
 .about-visual-content {
   position: relative;
   z-index: 2;
-  text-align: center;
-  color: var(--secondary-light);
+  text-align: right;
+  color: #80f3f0;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.5rem;
 }
 
 .about-visual-content h3 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
 }
 
 /* Timeline */
