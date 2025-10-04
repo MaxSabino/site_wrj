@@ -1359,6 +1359,7 @@ footer {
   display: flex;
   gap: 1rem;
   margin-top: 3rem;
+  justify-content: center;
 }
 
 .footer-social a {
@@ -1622,6 +1623,11 @@ body.dark-mode {
 
   .mobile-menu {
     display: flex;
+  }
+
+  .logo2 img {
+    width: 150px;
+    margin-top: 0.2rem;
   }
 
   .hero h1 {
