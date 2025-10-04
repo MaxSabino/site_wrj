@@ -219,7 +219,7 @@ nav {
 .fab-container {
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  right: 0.5rem;
   z-index: 999;
   display: flex;
   flex-direction: column;
@@ -415,6 +415,28 @@ nav {
   animation: fadeInUp 1s ease-out 0.6s both;
 }
 
+.btn-top {
+  padding: 5px 5px;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* background: var(--accent); */
+  color: var(--secondary-light);
+}
+.btn-top:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-medium);
+  background: var(--secondary-light);
+  color: var(--primary-dark);
+}
+
 .btn-primary,
 .btn-secondary {
   padding: 15px 35px;
@@ -482,6 +504,7 @@ section {
   color: var(--primary-dark);
   position: relative;
   font-weight: 800;
+  text-shadow: 2px 2px 5px #ffffff;
 }
 
 .section-title::after {
@@ -1335,7 +1358,7 @@ footer {
 .footer-social {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .footer-social a {
@@ -1552,8 +1575,8 @@ body.dark-mode {
 /* Theme Toggle */
 .theme-toggle {
   position: fixed;
-  top: 50%;
-  right: 2rem;
+  top: 6rem;
+  right: 0.5rem;
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
