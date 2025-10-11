@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FIM GOOGLE FONTES -->
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!-- FIM ICONS -->
+
+    <!-- CSS's -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- FIM CSS -->
+
+    <script src="./js/global.js" defer></script>
+
+    <title>Portfólio de Serviços - WRJ Soluções em Tecnologia</title>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <div>
+        <a href="#" class="logo2">
+          <!-- BIRD WRJ -->
+          <img
+            width="200px"
+            src="./imagens/bird_logo-3.png"
+            alt="Logo WRJ Soluções Tecnológicas!"
+          />
+        </a>
+      </div>
+      <nav>
+        <a href="#" class="logo">
+          <!-- WRJ -->
+          <img
+            width="250px"
+            src="./imagens/logo-tx-44.png"
+            alt="Logo WRJ Soluções Tecnológicas!"
+          />
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <!-- <li><a href="#about">Sobre</a></li> -->
+          <li><a href="#services">Serviços</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a href="#team">Equipe</a></li> -->
+          <!-- <li><a href="#testimonials">Depoimentos</a></li> -->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="mobile-menu" id="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+      <!-- <a href="#contact" class="fab" title="Contato">📧</a>
+      <a href="tel:+5511999999999" class="fab" title="Telefone">📞</a> -->
+      <a href="#home" id="backToTop" title="Voltar ao topo">
+        <!-- <i class="bi bi-arrow-up-circle-fill"></i>  ///// class="fab back-to-top"  -->
+
+        <button type="button" class="btn-top">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="var(--accent)"
+            class="bi bi-arrow-up-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+            ></path>
+          </svg>
+        </button>
+      </a>
+    </div>
+
+    <!-- Theme Toggle -->
+    <!-- <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+      🌙
+    </button> -->
+
+    <!-- Chat Widget -->
+    <!-- <div class="chat-widget" id="chatWidget" title="Chat ao vivo">💬</div> -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="floating-shapes">
+        <div class="shape"><i class="devicon-django-plain-wordmark"></i></div>
+        <div class="shape">
+          <i class="devicon-amazonwebservices-plain-wordmark"></i>
+        </div>
+        <div class="shape"><i class="devicon-python-plain"></i></div>
+        <div class="shape"><i class="devicon-postgresql-plain"></i></div>
+        <div class="shape"><i class="devicon-github-original"></i></div>
+        <div class="shape"></div>
+      </div>
+      <div class="hero-content">
+        <h1>
+          Inovação em
+          <span class="typing-text" id="typingText">Tecnologia</span>
+        </h1>
+        <p class="subtitle">
+          Transformamos ideias em soluções tecnológicas que impulsionam o futuro
+          do seu negócio
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Fale Conosco </a>
+          <a href="#services" class="btn-secondary">Ver Portfolio </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" style="padding: 20px">
+      <div class="container">
+        <div class="stats-grid-portweb">
+          <div class="stat-item-portweb animate-on-scroll">
+            <span class="stat-number" data-count="50" style="font-size: 30px"
+              >0</span
+            >
+            <div class="stat-label">Projetos Entregues</div>
+          </div>
+          <div class="stat-item-portweb animate-on-scroll">
+            <span class="stat-number" data-count="20" style="font-size: 30px"
+              >0</span
+            >
+            <div class="stat-label">Clientes Satisfeitos</div>
+          </div>
+          <div class="stat-item-portweb animate-on-scroll">
+            <span class="stat-number" data-count="30" style="font-size: 30px"
+              >0</span
+            >
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+          <div class="stat-item-portweb animate-on-scroll">
+            <span class="stat-number" data-count="10" style="font-size: 30px"
+              >0</span
+            >
+            <div class="stat-label">Especialistas</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Quem Somos</h2>
+        <div class="about-content">
+          <div class="about-text animate-on-scroll">
+            <p>
+              Somos uma empresa de tecnologia dedicada a transformar negócios
+              através de soluções inovadoras e personalizadas. Com mais de uma
+              década de experiência no mercado, nossa equipe de especialistas
+              combina conhecimento técnico com visão estratégica.
+            </p>
+            <p>
+              Nossa paixão é criar tecnologias que não apenas resolvem problemas
+              complexos, mas também impulsionam o crescimento e a eficiência dos
+              nossos clientes.
+            </p>
+            <ul class="about-features">
+              <li>Equipe altamente qualificada</li>
+              <li>Metodologias ágeis de desenvolvimento</li>
+              <li>Suporte técnico 24/7</li>
+              <li>Garantia de qualidade total</li>
+            </ul>
+          </div>
+          <div class="about-visual animate-on-scroll">
+            <div class="about-visual-content">
+              <h3>30+ Anos</h3>
+              <p class="p-op">De excelência em tecnologia!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Timeline -->
+    <!-- <section class="timeline">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Nossa Jornada</h2>
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-content">
+              <div class="timeline-year">2015</div>
+              <h3>Fundação</h3>
+              <p>
+                Nascemos com o objetivo de democratizar o acesso à tecnologia de
+                ponta para empresas de todos os portes.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-content">
+              <div class="timeline-year">2018</div>
+              <h3>Expansão</h3>
+              <p>
+                Ampliamos nossa equipe e começamos a atender clientes
+                internacionais, estabelecendo parcerias estratégicas.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-content">
+              <div class="timeline-year">2021</div>
+              <h3>Inovação</h3>
+              <p>
+                Lançamos nossa divisão de IA e Machine Learning, tornando-nos
+                pioneiros no mercado brasileiro.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-content">
+              <div class="timeline-year">2025</div>
+              <h3>Futuro</h3>
+              <p>
+                Continuamos inovando e expandindo nossos serviços para atender
+                as demandas do mercado digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- start PORT ROOT -->
+
+    <!-- <section>
+      <h2>🔐 Sistemas de CFTV – Analógico e IP</h2>
+      <p>
+        <strong>Visão Total, Tranquilidade Absoluta</strong><br />
+        Proteja seu patrimônio com monitoramento 24h acessível de qualquer lugar
+        do mundo.
+      </p>
+      <ul>
+        <li>Câmeras IP de Alta Definição com análise inteligente</li>
+        <li>Sistemas Analógicos HD com excelente custo-benefício</li>
+        <li>Acesso remoto via smartphone</li>
+        <li>Gravação segura em DVR/NVR ou nuvem</li>
+        <li>Projetos sob medida e suporte técnico contínuo</li>
+      </ul>
+      <p class="cta">Solicite uma análise de segurança gratuita!</p>
+    </section>
+
+    <section>
+      <h2>🌐 Redes de Computadores e Cabeamento Estruturado</h2>
+      <p>
+        <strong>A Coluna Vertebral do seu Negócio</strong><br />
+        Conectividade rápida, segura e preparada para o futuro.
+      </p>
+      <ul>
+        <li>Projeto e instalação de rede estruturada</li>
+        <li>Certificação de pontos e organização de racks</li>
+        <li>Mapeamento completo da infraestrutura</li>
+        <li>Máxima velocidade, escalabilidade e segurança</li>
+      </ul>
+      <p class="cta">Solicite um diagnóstico completo da sua rede!</p>
+    </section>
+
+    <section>
+      <h2>📞 Telefonia e Interfonia (Tradicional e IP)</h2>
+      <p>
+        <strong>Comunicação Clara, Conexões Inteligentes</strong><br />
+        Modernize sua comunicação com economia e mobilidade.
+      </p>
+      <ul>
+        <li>Telefonia IP com mobilidade e recursos avançados</li>
+        <li>Interfonia IP com vídeo e abertura remota</li>
+        <li>Manutenção de sistemas tradicionais</li>
+        <li>Integração com dispositivos móveis</li>
+      </ul>
+      <p class="cta">Fale com um consultor e descubra como cortar custos!</p>
+    </section>
+
+    <section>
+      <h2>🏠 Automação Inteligente</h2>
+      <p>
+        <strong>O Futuro é Agora</strong><br />
+        Controle total da sua casa ou empresa com um simples toque.
+      </p>
+      <ul>
+        <li>Iluminação, climatização e segurança integradas</li>
+        <li>Comandos por smartphone ou voz</li>
+        <li>Economia de energia e valorização do imóvel</li>
+      </ul>
+      <p class="cta">Transforme seu espaço com automação inteligente!</p>
+    </section>
+
+    <section>
+      <h2>🔊 Sonorização de Ambientes</h2>
+      <p>
+        <strong>A Trilha Sonora Perfeita para Cada Momento</strong><br />
+        Design sonoro que valoriza seu espaço e encanta seus clientes.
+      </p>
+      <ul>
+        <li>Sonorização para lojas, clínicas, restaurantes e academias</li>
+        <li>Multiambiente residencial e home cinema</li>
+        <li>Equipamentos discretos e de alta fidelidade</li>
+      </ul>
+      <p class="cta">Solicite um projeto de sonorização personalizado!</p>
+    </section>
+
+    <section>
+      <h2>💻 Gestão de TI 360° e Soluções Integradas</h2>
+      <p>
+        <strong>Sua TI, Nossa Responsabilidade</strong><br />
+        Centralize sua tecnologia com eficiência e inovação.
+      </p>
+      <ul>
+        <li>Outsourcing completo de TI</li>
+        <li>Suporte técnico e consultoria estratégica</li>
+        <li>Desenvolvimento de sistemas sob medida</li>
+        <li>Redução de custos e visão unificada</li>
+      </ul>
+      <p class="cta">Agende uma consultoria gratuita!</p>
+    </section>
+
+    <section>
+      <h2>📡 Consultoria em Internet e Telefonia</h2>
+      <p>
+        <strong>A Melhor Conexão, sem Dor de Cabeça</strong><br />
+        Negociamos com operadoras para você economizar e ter performance.
+      </p>
+      <ul>
+        <li>Análise de faturas e consumo</li>
+        <li>Negociação com operadoras</li>
+        <li>Implantação de PABX em nuvem</li>
+        <li>Suporte centralizado</li>
+      </ul>
+      <p class="cta">Envie suas faturas para uma análise gratuita!</p>
+    </section>
+
+    <section>
+      <h2>☀️ Energia Solar Fotovoltaica</h2>
+      <p>
+        <strong>O Sol Trabalhando por Você</strong><br />
+        Economize até 95% na conta de luz com energia limpa e sustentável.
+      </p>
+      <ul>
+        <li>Projeto personalizado e homologação completa</li>
+        <li>Equipamentos de alta performance</li>
+        <li>Instalação segura e profissional</li>
+      </ul>
+      <p class="cta">Solicite um estudo de viabilidade gratuito!</p>
+    </section>
+
+    <section>
+      <h2>🌍 Desenvolvimento de Sites e Soluções Web</h2>
+      <p>
+        <strong>Sua Empresa Aberta 24h para o Mundo</strong><br />
+        Sites e sistemas que convertem visitantes em clientes.
+      </p>
+      <ul>
+        <li>Sites institucionais e lojas virtuais</li>
+        <li>Landing pages de alta conversão</li>
+        <li>Sistemas web personalizados</li>
+        <li>SEO, design UX e suporte completo</li>
+      </ul>
+      <p class="cta">Solicite uma proposta para seu novo site!</p>
+    </section>
+
+    <section>
+      <h2>🚪 Controle de Acesso</h2>
+      <p>
+        <strong>Quem Entra, Onde e Quando</strong><br />
+        Segurança inteligente com gestão total de acessos.
+      </p>
+      <ul>
+        <li>Biometria, cartões RFID, senhas e acesso via app</li>
+        <li>Relatórios de movimentação e permissões flexíveis</li>
+        <li>Integração com CFTV, alarmes e ponto eletrônico</li>
+      </ul>
+      <p class="cta">Solicite uma avaliação de segurança!</p>
+    </section>
+
+    <section>
+      <h2>🎥 Projetos de Áudio e Vídeo de Alta Performance</h2>
+      <p>
+        <strong>Imagem e Som que Impactam e Emocionam</strong><br />
+        Experiências audiovisuais imersivas para residências e empresas.
+      </p>
+      <ul>
+        <li>Home theaters e cinemas residenciais</li>
+        <li>Salas de videoconferência e auditórios</li>
+        <li>Projetores, datashows e sistemas de som calibrados</li>
+        <li>Integração com automação e design acústico</li>
+      </ul>
+      <p class="cta">Fale com nossos especialistas e surpreenda-se!</p>
+    </section> -->
+    <!-- END PORT ROOT -->
+
+    <!-- Services -->
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Nossos Serviços</h2>
+
+        <div class="services-grid">
+          <!-- start PORT ROOT -->
+
+          <!-- <section>
+            <h2>🔐 Sistemas de CFTV – Analógico e IP</h2>
+            <p>
+              <strong>Visão Total, Tranquilidade Absoluta</strong><br />
+              Proteja seu patrimônio com monitoramento 24h acessível de qualquer
+              lugar do mundo.
+            </p>
+            <ul>
+              <li>Câmeras IP de Alta Definição com análise inteligente</li>
+              <li>Sistemas Analógicos HD com excelente custo-benefício</li>
+              <li>Acesso remoto via smartphone</li>
+              <li>Gravação segura em DVR/NVR ou nuvem</li>
+              <li>Projetos sob medida e suporte técnico contínuo</li>
+            </ul>
+            <p class="cta">Solicite uma análise de segurança gratuita!</p>
+          </section>
+
+          <section>
+            <h2>🌐 Redes de Computadores e Cabeamento Estruturado</h2>
+            <p>
+              <strong>A Coluna Vertebral do seu Negócio</strong><br />
+              Conectividade rápida, segura e preparada para o futuro.
+            </p>
+            <ul>
+              <li>Projeto e instalação de rede estruturada</li>
+              <li>Certificação de pontos e organização de racks</li>
+              <li>Mapeamento completo da infraestrutura</li>
+              <li>Máxima velocidade, escalabilidade e segurança</li>
+            </ul>
+            <p class="cta">Solicite um diagnóstico completo da sua rede!</p>
+          </section>
+
+          <section>
+            <h2>📞 Telefonia e Interfonia (Tradicional e IP)</h2>
+            <p>
+              <strong>Comunicação Clara, Conexões Inteligentes</strong><br />
+              Modernize sua comunicação com economia e mobilidade.
+            </p>
+            <ul>
+              <li>Telefonia IP com mobilidade e recursos avançados</li>
+              <li>Interfonia IP com vídeo e abertura remota</li>
+              <li>Manutenção de sistemas tradicionais</li>
+              <li>Integração com dispositivos móveis</li>
+            </ul>
+            <p class="cta">
+              Fale com um consultor e descubra como cortar custos!
+            </p>
+          </section>
+
+          <section>
+            <h2>🏠 Automação Inteligente</h2>
+            <p>
+              <strong>O Futuro é Agora</strong><br />
+              Controle total da sua casa ou empresa com um simples toque.
+            </p>
+            <ul>
+              <li>Iluminação, climatização e segurança integradas</li>
+              <li>Comandos por smartphone ou voz</li>
+              <li>Economia de energia e valorização do imóvel</li>
+            </ul>
+            <p class="cta">Transforme seu espaço com automação inteligente!</p>
+          </section>
+
+          <section>
+            <h2>🔊 Sonorização de Ambientes</h2>
+            <p>
+              <strong>A Trilha Sonora Perfeita para Cada Momento</strong><br />
+              Design sonoro que valoriza seu espaço e encanta seus clientes.
+            </p>
+            <ul>
+              <li>
+                Sonorização para lojas, clínicas, restaurantes e academias
+              </li>
+              <li>Multiambiente residencial e home cinema</li>
+              <li>Equipamentos discretos e de alta fidelidade</li>
+            </ul>
+            <p class="cta">Solicite um projeto de sonorização personalizado!</p>
+          </section>
+
+          <section>
+            <h2>💻 Gestão de TI 360° e Soluções Integradas</h2>
+            <p>
+              <strong>Sua TI, Nossa Responsabilidade</strong><br />
+              Centralize sua tecnologia com eficiência e inovação.
+            </p>
+            <ul>
+              <li>Outsourcing completo de TI</li>
+              <li>Suporte técnico e consultoria estratégica</li>
+              <li>Desenvolvimento de sistemas sob medida</li>
+              <li>Redução de custos e visão unificada</li>
+            </ul>
+            <p class="cta">Agende uma consultoria gratuita!</p>
+          </section>
+
+          <section>
+            <h2>📡 Consultoria em Internet e Telefonia</h2>
+            <p>
+              <strong>A Melhor Conexão, sem Dor de Cabeça</strong><br />
+              Negociamos com operadoras para você economizar e ter performance.
+            </p>
+            <ul>
+              <li>Análise de faturas e consumo</li>
+              <li>Negociação com operadoras</li>
+              <li>Implantação de PABX em nuvem</li>
+              <li>Suporte centralizado</li>
+            </ul>
+            <p class="cta">Envie suas faturas para uma análise gratuita!</p>
+          </section>
+
+          <section>
+            <h2>☀️ Energia Solar Fotovoltaica</h2>
+            <p>
+              <strong>O Sol Trabalhando por Você</strong><br />
+              Economize até 95% na conta de luz com energia limpa e sustentável.
+            </p>
+            <ul>
+              <li>Projeto personalizado e homologação completa</li>
+              <li>Equipamentos de alta performance</li>
+              <li>Instalação segura e profissional</li>
+            </ul>
+            <p class="cta">Solicite um estudo de viabilidade gratuito!</p>
+          </section>
+
+          <section>
+            <h2>🌍 Desenvolvimento de Sites e Soluções Web</h2>
+            <p>
+              <strong>Sua Empresa Aberta 24h para o Mundo</strong><br />
+              Sites e sistemas que convertem visitantes em clientes.
+            </p>
+            <ul>
+              <li>Sites institucionais e lojas virtuais</li>
+              <li>Landing pages de alta conversão</li>
+              <li>Sistemas web personalizados</li>
+              <li>SEO, design UX e suporte completo</li>
+            </ul>
+            <p class="cta">Solicite uma proposta para seu novo site!</p>
+          </section>
+
+          <section>
+            <h2>🚪 Controle de Acesso</h2>
+            <p>
+              <strong>Quem Entra, Onde e Quando</strong><br />
+              Segurança inteligente com gestão total de acessos.
+            </p>
+            <ul>
+              <li>Biometria, cartões RFID, senhas e acesso via app</li>
+              <li>Relatórios de movimentação e permissões flexíveis</li>
+              <li>Integração com CFTV, alarmes e ponto eletrônico</li>
+            </ul>
+            <p class="cta">Solicite uma avaliação de segurança!</p>
+          </section> -->
+          <!-- END PORT ROOT -->
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🌐</div>
+            <h3>Redes de Computadores e Cabeamento Estruturado</h3>
+            <p>
+              <strong>A Coluna Vertebral do seu Negócio</strong><br />
+              Conectividade rápida, segura e preparada para o futuro.
+            </p>
+            <ul>
+              <li>Projeto e instalação de rede estruturada</li>
+              <li>Certificação de pontos e organização de racks</li>
+              <li>Mapeamento completo da infraestrutura</li>
+              <li>Máxima velocidade, escalabilidade e segurança</li>
+            </ul>
+            <p class="cta">Solicite um diagnóstico completo da sua rede!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">💻</div>
+            <h3>Gestão de TI 360° e Soluções Integradas</h3>
+            <p>
+              <strong>Sua TI, Nossa Responsabilidade</strong><br />
+              Centralize sua tecnologia com eficiência e inovação.
+            </p>
+            <ul>
+              <li>Outsourcing completo de TI</li>
+              <li>Suporte técnico e consultoria estratégica</li>
+              <li>Desenvolvimento de sistemas sob medida</li>
+              <li>Redução de custos e visão unificada</li>
+            </ul>
+            <p class="cta">Agende uma consultoria gratuita!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🔐</div>
+            <h3>Sistemas de CFTV – Analógico e IP</h3>
+            <p>
+              <strong>Visão Total, Tranquilidade Absoluta</strong><br />
+              Proteja seu patrimônio com monitoramento 24h acessível de qualquer
+              lugar do mundo.
+            </p>
+            <ul>
+              <li>Câmeras IP de Alta Definição com análise inteligente</li>
+              <li>Sistemas Analógicos HD com excelente custo-benefício</li>
+              <li>Acesso remoto via smartphone</li>
+              <li>Gravação segura em DVR/NVR ou nuvem</li>
+              <li>Projetos sob medida e suporte técnico contínuo</li>
+            </ul>
+            <p class="cta">Solicite uma análise de segurança gratuita!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">📡</div>
+            <h3>Consultoria em Internet e Telefonia</h3>
+            <p>
+              <strong>A Melhor Conexão, sem Dor de Cabeça</strong><br />
+              Negociamos com operadoras para você economizar e ter performance.
+            </p>
+            <ul>
+              <li>Análise de faturas e consumo</li>
+              <li>Negociação com operadoras</li>
+              <li>Implantação de PABX em nuvem</li>
+              <li>Suporte centralizado</li>
+            </ul>
+            <p class="cta">Envie suas faturas para uma análise gratuita!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🔊</div>
+            <h3>Sonorização de Ambientes</h3>
+            <p>
+              <strong>A Trilha Sonora Perfeita para Cada Momento</strong><br />
+              Design sonoro que valoriza seu espaço e encanta seus clientes.
+            </p>
+            <ul>
+              <li>
+                Sonorização para lojas, clínicas, restaurantes e academias
+              </li>
+              <li>Multiambiente residencial e home cinema</li>
+              <li>Equipamentos discretos e de alta fidelidade</li>
+            </ul>
+            <p class="cta">Solicite um projeto de sonorização personalizado!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">📞</div>
+            <h3>Telefonia e Interfonia (Tradicional e IP)</h3>
+            <p>
+              <strong>Comunicação Clara, Conexões Inteligentes</strong><br />
+              Modernize sua comunicação com economia e mobilidade.
+            </p>
+            <ul>
+              <li>Telefonia IP com mobilidade e recursos avançados</li>
+              <li>Interfonia IP com vídeo e abertura remota</li>
+              <li>Manutenção de sistemas tradicionais</li>
+              <li>Integração com dispositivos móveis</li>
+            </ul>
+            <p class="cta">
+              Fale com um consultor e descubra como cortar custos!
+            </p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🌍</div>
+            <h3>Desenvolvimento de Sites e Soluções Web</h3>
+            <p>
+              <strong>Sua Empresa Aberta 24h para o Mundo</strong><br />
+              Sites e sistemas que convertem visitantes em clientes.
+            </p>
+            <ul>
+              <li>Sites institucionais e lojas virtuais</li>
+              <li>Landing pages de alta conversão</li>
+              <li>Sistemas web personalizados</li>
+              <li>SEO, design UX e suporte completo</li>
+            </ul>
+            <p class="cta">Solicite uma proposta para seu novo site!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">☁️</div>
+            <h3>Cloud Solutions</h3>
+            <p>
+              <strong>Rapides, ecominomia e segurança!</strong><br />
+              As melhores soluções de tecnologia em "nuvens!!!".
+            </p>
+            <ul>
+              <li>Servidores e Aplicações WEB integradas</li>
+              <li>Backup's e Sistema de Arquivos com governança;</li>
+              <li>
+                Gerenciamento de custo automatizado e Sistema anti-catastrofe.
+              </li>
+            </ul>
+            <p class="cta">Tenha sua empresa nas segurança das nuvens!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🏠</div>
+            <h3>Automação Inteligente</h3>
+            <p>
+              <strong>O Futuro é Agora</strong><br />
+              Controle total da sua casa ou empresa com um simples toque.
+            </p>
+            <ul>
+              <li>Iluminação, climatização e segurança integradas</li>
+              <li>Comandos por smartphone ou voz</li>
+              <li>Economia de energia e valorização do imóvel</li>
+            </ul>
+            <p class="cta">Transforme seu espaço com automação inteligente!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🚪</div>
+            <h3>Controle de Acesso</h3>
+            <p>
+              <strong>Quem Entra, Onde e Quando</strong><br />
+              Segurança inteligente com gestão total de acessos.
+            </p>
+            <ul>
+              <li>Biometria, cartões RFID, senhas e acesso via app</li>
+              <li>Relatórios de movimentação e permissões flexíveis</li>
+              <li>Integração com CFTV, alarmes e ponto eletrônico</li>
+            </ul>
+            <p class="cta">Solicite uma avaliação de segurança!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">☀️</div>
+            <h3>Energia Solar Fotovoltaica</h3>
+            <p>
+              <strong>O Sol Trabalhando por Você</strong><br />
+              Economize até 95% na conta de luz com energia limpa e sustentável.
+            </p>
+            <ul>
+              <li>Projeto personalizado e homologação completa</li>
+              <li>Equipamentos de alta performance</li>
+              <li>Instalação segura e profissional</li>
+            </ul>
+            <p class="cta">Solicite um estudo de viabilidade gratuito!</p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🎥</div>
+            <h3>Projetos de Áudio e Vídeo de Alta Performance</h3>
+            <p>
+              <strong>Imagem e Som que Impactam e Emocionam</strong><br />
+              Experiências audiovisuais imersivas para residências e empresas.
+            </p>
+            <ul>
+              <li>Home theaters e cinemas residenciais</li>
+              <li>Salas de videoconferência e auditórios</li>
+              <li>Projetores, datashows e sistemas de som calibrados</li>
+              <li>Integração com automação e design acústico</li>
+            </ul>
+            <!-- <p class="cta">Fale com nossos especialistas e surpreenda-se!</p> -->
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <!-- ORIGINAL COD -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🤖</div>
+            <h3>IA & Machine Learning</h3>
+            <p>
+              Sistemas inteligentes que automatizam processos e geram insights
+              valiosos.
+            </p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">🔒</div>
+            <h3>Segurança Patrimonial</h3>
+            <p>
+              Soluções para segurança patrimonial avançadas. Venda, instalações,
+              Manutenções e conserto.
+            </p>
+            <div class="service-price">Consulte!</div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">📊</div>
+            <h3>Business Intelligence</h3>
+            <p>
+              Transforme dados em conhecimento estratégico com dashboards
+              avançados.
+            </p>
+            <div class="service-price">Consulte!</div>
+          </div>
+          <!-- FIM ORIGINAL COD -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <!-- <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Nosso Portfolio</h2>
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="ai">IA</button>
+          <button class="filter-btn" data-filter="cloud">Cloud</button>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item animate-on-scroll" data-category="web">
+            <div class="portfolio-image">🏪</div>
+            <div class="portfolio-overlay">
+              <a href="#" class="btn-primary">Ver Detalhes</a>
+              <a href="#" class="btn-secondary">Demo</a>
+            </div>
+            <div class="portfolio-content">
+              <h3>E-commerce Revolution</h3>
+              <p>
+                Plataforma completa com IA para recomendações personalizadas,
+                aumentando vendas em 300%.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item animate-on-scroll" data-category="mobile">
+            <div class="portfolio-image">🏥</div>
+            <div class="portfolio-overlay">
+              <a href="#" class="btn-primary">Ver Detalhes</a>
+              <a href="#" class="btn-secondary">Demo</a>
+            </div>
+            <div class="portfolio-content">
+              <h3>HealthTech Pro</h3>
+              <p>
+                Sistema hospitalar que otimizou processos e reduziu tempo de
+                atendimento em 50%.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">API REST</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item animate-on-scroll" data-category="cloud">
+            <div class="portfolio-image">🚗</div>
+            <div class="portfolio-overlay">
+              <a href="#" class="btn-primary">Ver Detalhes</a>
+              <a href="#" class="btn-secondary">Demo</a>
+            </div>
+            <div class="portfolio-content">
+              <h3>Fleet Manager 360</h3>
+              <p>
+                Solução IoT para gestão de frotas com redução de 40% nos custos
+                operacionais.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">AWS</span>
+                <span class="tag">IoT</span>
+                <span class="tag">Analytics</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item animate-on-scroll" data-category="ai">
+            <div class="portfolio-image">🎓</div>
+            <div class="portfolio-overlay">
+              <a href="#" class="btn-primary">Ver Detalhes</a>
+              <a href="#" class="btn-secondary">Demo</a>
+            </div>
+            <div class="portfolio-content">
+              <h3>EduTech Platform</h3>
+              <p>
+                Plataforma educacional com IA adaptativa que melhorou
+                engajamento em 250%.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Django</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Team INATIVO-->
+    <!-- <section id="team" class="team">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Nossa Equipe</h2>
+        <div class="team-grid">
+          <div class="team-member animate-on-scroll">
+            <div class="team-avatar">👨‍💼</div>
+            <h3 class="team-name">Carlos Silva</h3>
+            <p class="team-role">CEO & Founder</p>
+            <p>
+              Visionário em tecnologia com 15+ anos de experiência em
+              transformação digital.
+            </p>
+            <div class="team-social">
+              <a href="#" class="social-link">💼</a>
+              <a href="#" class="social-link">🐦</a>
+              <a href="#" class="social-link">📧</a>
+            </div>
+          </div>
+          <div class="team-member animate-on-scroll">
+            <div class="team-avatar">👩‍💻</div>
+            <h3 class="team-name">Ana Costa</h3>
+            <p class="team-role">CTO</p>
+            <p>
+              Especialista em arquitetura de sistemas e líder técnica com paixão
+              por inovação.
+            </p>
+            <div class="team-social">
+              <a href="#" class="social-link">💼</a>
+              <a href="#" class="social-link">🐦</a>
+              <a href="#" class="social-link">📧</a>
+            </div>
+          </div>
+          <div class="team-member animate-on-scroll">
+            <div class="team-avatar">👨‍🎨</div>
+            <h3 class="team-name">João Santos</h3>
+            <p class="team-role">Design Director</p>
+            <p>
+              Designer experiente focado em criar experiências digitais
+              excepcionais e intuitivas.
+            </p>
+            <div class="team-social">
+              <a href="#" class="social-link">💼</a>
+              <a href="#" class="social-link">🐦</a>
+              <a href="#" class="social-link">📧</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Testimonials INATIVO -->
+    <!-- <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">
+          O Que Nossos Clientes Dizem
+        </h2>
+        <div class="testimonials-slider">
+          <div class="testimonial active">
+            <p class="testimonial-text">
+              "A WRJ transformou completamente nossa operação. A solução em
+              nuvem que desenvolveram nos permitiu escalar rapidamente e reduzir
+              custos significativamente. Recomendo sem hesitação!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">👩‍💼</div>
+              <div class="author-info">
+                <h4>Maria Silva</h4>
+                <p>CEO, InnovateCorp</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "Profissionalismo excepcional e entrega dentro do prazo. O
+              aplicativo mobile que criaram superou todas as nossas expectativas
+              e aumentou nosso engajamento em 400%. Parceria fantástica!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">👨‍💼</div>
+              <div class="author-info">
+                <h4>João Santos</h4>
+                <p>CTO, StartupTech</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "A expertise em IA da WRJ foi fundamental para automatizar nossos
+              processos. O sistema inteligente que desenvolveram nos economiza
+              20 horas por semana. Investimento que valeu cada centavo!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">👩‍💻</div>
+              <div class="author-info">
+                <h4>Ana Costa</h4>
+                <p>Diretora de TI, MegaCorp</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-nav">
+            <div class="nav-dot active" data-slide="0"></div>
+            <div class="nav-dot" data-slide="1"></div>
+            <div class="nav-dot" data-slide="2"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Entre em Contato</h2>
+        <div class="contact-content-portweb">
+          <div class="contact-info animate-on-scroll">
+            <h3>Vamos Conversar</h3>
+            <p>
+              Estamos prontos para transformar suas ideias em realidade. Entre
+              em contato conosco e descubra como podemos impulsionar seu
+              negócio.
+            </p>
+
+            <div class="contact-item-portweb">
+              <div class="contact-icon">📧</div>
+              <div>
+                <strong>Email</strong><br />
+                contato@wrj.com.br<br />
+                suporte@wrj.com.br
+              </div>
+            </div>
+            <div class="contact-item-portweb">
+              <div class="contact-icon">📱</div>
+              <div>
+                <strong>Telefone</strong><br />
+                +55 (11) 9999-9999<br />
+                +55 (11) 8888-8888
+              </div>
+            </div>
+            <!-- <div class="contact-item-portweb">
+              <div class="contact-icon">📍</div>
+              <div>
+                <p>
+                  <strong>Endereço</strong><br />
+                  Av. Paulista, 1000 - São Paulo, SP<br />
+                  CEP: 01310-100
+                </p>
+              </div>
+            </div> -->
+            <!-- <div class="contact-item">
+              <div class="contact-icon">🕒</div>
+              <div>
+                <strong>Horário de Atendimento</strong><br />
+                Segunda à Sexta: 9h às 18h<br />
+                Sábado: 9h às 14h
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Entre em Contato</h2>
+        <div class="contact-content">
+          <div class="contact-info animate-on-scroll">
+            <h3>Vamos Conversar</h3>
+            <p>
+              Estamos prontos para transformar suas ideias em realidade. Entre
+              em contato conosco e descubra como podemos impulsionar seu
+              negócio.
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <strong>Email</strong><br />
+                contato@wrj.com.br<br />
+                suporte@wrj.com.br
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div>
+                <strong>Telefone</strong><br />
+                +55 (11) 9999-9999<br />
+                +55 (11) 8888-8888
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Endereço</strong><br />
+                Av. Paulista, 1000 - São Paulo, SP<br />
+                CEP: 01310-100
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕒</div>
+              <div>
+                <strong>Horário de Atendimento</strong><br />
+                Segunda à Sexta: 9h às 18h<br />
+                Sábado: 9h às 14h
+              </div>
+            </div>
+          </div>
+          <div class="contact-form animate-on-scroll">
+            <h3>Envie sua Mensagem</h3>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nome Completo</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Telefone</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+                <div class="form-group">
+                  <label for="service">Serviço de Interesse</label>
+                  <select id="service" name="service">
+                    <option value="">Selecione um serviço</option>
+                    <option value="web">Desenvolvimento Web</option>
+                    <option value="mobile">Apps Mobile</option>
+                    <option value="cloud">Cloud Solutions</option>
+                    <option value="ai">IA & Machine Learning</option>
+                    <option value="security">Cybersecurity</option>
+                    <option value="bi">Business Intelligence</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Conte-nos sobre seu projeto..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                Enviar Mensagem 🚀
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Newsletter -->
+    <!-- <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content animate-on-scroll">
+          <h3>Fique por Dentro das Novidades</h3>
+          <p>
+            Receba em primeira mão as últimas tendências em tecnologia e nossas
+            atualizações exclusivas.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Seu melhor email" required />
+            <button type="submit">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <!-- <div class="footer-section">
+            <h4>WRJ SolutionS</h4>
+            <p>
+              Transformando o futuro através da tecnologia. Somos especialistas
+              em criar soluções inovadoras que impulsionam o crescimento dos
+              nossos clientes.
+            </p>
+            <div class="footer-social">
+              <a href="#" title="LinkedIn"
+                ><i class="bi bi-linkedin" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="GitHub"
+                ><i class="bi bi-github" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="Facebook"
+                ><i class="bi bi-facebook" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="Instagram"
+                ><i class="bi bi-instagram" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="YouTube"
+                ><i class="bi bi-youtube" style="font-size: 20px"></i
+              ></a>
+            </div>
+          </div>
+        </div> -->
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 WRJ. Todos os direitos reservados. Inovando o futuro
+            através da tecnologia.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- END FOOT ROOT -->
+    <!-- <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>WRJ SolutionS</h4>
+            <p>
+              Transformando o futuro através da tecnologia. Somos especialistas
+              em criar soluções inovadoras que impulsionam o crescimento dos
+              nossos clientes.
+            </p>
+            <div class="footer-social">
+              <a href="#" title="LinkedIn"
+                ><i class="bi bi-linkedin" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="GitHub"
+                ><i class="bi bi-github" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="Facebook"
+                ><i class="bi bi-facebook" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="Instagram"
+                ><i class="bi bi-instagram" style="font-size: 20px"></i
+              ></a>
+              <a href="#" title="YouTube"
+                ><i class="bi bi-youtube" style="font-size: 20px"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#services">Desenvolvimento Web</a></li>
+              <li><a href="#services">Apps Mobile</a></li>
+              <li><a href="#services">Cloud Solutions</a></li>
+              <li><a href="#services">IA & Machine Learning</a></li> -->
+    <!-- <li><a href="#services">Cybersecurity</a></li> -->
+    <!-- <li><a href="#services">IA & Machine Learning</a></li>
+              <li><a href="#services">Business Intelligence</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#about">Sobre Nós</a></li> -->
+    <!-- <li><a href="#team">Nossa Equipe</a></li> -->
+    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+    <!-- <li><a href="#testimonials">Depoimentos</a></li> -->
+    <!-- <li><a href="#contact">Contato</a></li> -->
+    <!-- <li><a href="#">Carreiras</a></li> -->
+    <!-- <li><a href="#">Blog</a></li> -->
+    <!-- </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Suporte</h4>
+            <ul>
+              <li><a href="#contact">Central de Ajuda</a></li>
+              <li><a href="#contact">Documentação</a></li>
+              <li><a href="#contact">Status do Sistema</a></li>
+              <li><a href="#contact">Política de Privacidade</a></li>
+              <li><a href="#contact">Termos de Uso</a></li>
+              <li><a href="#contact">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 WRJ. Todos os direitos reservados. Inovando o futuro
+            através da tecnologia.
+          </p>
+        </div>
+      </div>
+    </footer> -->
+
+    <!-- Success Modal -->
+    <!-- <div class="modal" id="successModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <h3>✅ Mensagem Enviada!</h3>
+        <p>
+          Obrigado pelo seu contato! Nossa equipe entrará em contato em breve.
+        </p>
+        <button class="btn-primary" onclick="closeModal()">Fechar</button>
+      </div>
+    </div> -->
+    <!-- END FOOT ROOT -->
+  </body>
+</html>
