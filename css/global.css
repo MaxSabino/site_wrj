@@ -1675,6 +1675,7 @@ body.dark-mode {
 
   .mobile-menu {
     display: flex;
+    padding-right: 2rem;
   }
 
   .logo2 img {
