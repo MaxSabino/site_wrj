@@ -7,7 +7,7 @@
 /* :root {
   --primary-dark: #0b4f6c;
   --primary-light: #01baef;
-  --secondary-dark: #333333;
+  --secondary-dark: #0f141a;
   --secondary-light: #ffffff;
   --accent: #20bf55;
   --gradient-1: linear-gradient(
@@ -27,15 +27,19 @@
   /* --primary-dark: #4682b4; */
   --primary-light: #4682b4;
   /* --primary-light: #5f9ea0; */
-  --secondary-dark: #696969;
+  --secondary-dark: #0f141a;
   --secondary-light: #ffffff;
-  --accent: #1ace56;
+  --accent: #ff8128;
+  --accent2: #ff8128;
+  /* --accent: #1ace56; OLD*/
   --gradient-1: linear-gradient(
     135deg,
     var(--primary-dark),
     var(--primary-light)
   );
   --gradient-2: linear-gradient(135deg, var(--primary-light), var(--accent));
+  --gradient-3: linear-gradient(76.45deg, #ff8128 0%, #eee22c 100%);
+
   --shadow-light: 0 5px 15px rgba(0, 0, 0, 0.1);
   --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.15);
   --shadow-heavy: 0 20px 60px rgba(0, 0, 0, 0.25);
