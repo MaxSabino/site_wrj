@@ -40,7 +40,7 @@
   background-image: url("../imagens/bg1.jpg");
   color: var(--cor-branco);
   text-align: center;
-  padding: 3rem;
+  padding: 0 0 5rem 1rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,6 +55,8 @@
   background-color: rgba(0, 0, 0, 0.25);
   margin-right: 10px;
   border-radius: 20px;
+  margin-left: 0px;
+  padding: 1rem;
 }
 .carousel-slide.active {
   opacity: 1;
@@ -84,10 +86,10 @@
 }
 
 .carousel-dot {
-  width: 12px;
-  height: 12px;
+  width: 1.2rem;
+  height: 1.2rem;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: var(--gradient-1);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -135,6 +137,11 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
+  .carousel-slide {
+    background-size: cover;
+  }
+}
+/* @media (max-width: 768px) {
   .carousel {
     height: 300px;
   }
@@ -151,4 +158,4 @@
     padding: 0.5rem;
     font-size: 1.5rem;
   }
-}
+} */

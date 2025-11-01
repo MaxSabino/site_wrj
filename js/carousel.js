@@ -41,4 +41,4 @@ dots.forEach((dot, index) => {
 });
 
 // Auto-play carousel
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 10000);
