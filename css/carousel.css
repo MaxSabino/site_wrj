@@ -101,13 +101,13 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.2);
+  background: #51c6fc36;
   border: none;
   color: var(--cor-branco);
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 2.5rem;
+  padding: 0.5rem;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 10%;
   transition: all 0.3s ease;
   z-index: 10;
   backdrop-filter: blur(10px);
