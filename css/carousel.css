@@ -95,7 +95,7 @@
 }
 
 .carousel-dot.active {
-  background: var(--cor-branco);
+  background: #51c6fc36;
   transform: scale(1.2);
 }
 
@@ -137,6 +137,14 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
+  .carousel-container {
+    min-height: 95vh;
+  }
+
+  .carousel {
+    min-height: 95vh;
+  }
+
   .carousel-slide {
     background-size: cover;
   }
