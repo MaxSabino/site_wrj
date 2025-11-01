@@ -29,9 +29,13 @@
 
     <!-- CSS's -->
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
     <!-- FIM CSS -->
 
+    <!-- JSP inicio -->
+    <script src="./js/carousel.js" defer></script>
     <script src="./js/global.js" defer></script>
+    <!-- FIM CSS -->
 
     <title>Portfólio de Serviços - WRJ Soluções em Tecnologia</title>
   </head>
@@ -115,6 +119,61 @@
     <!-- <div class="chat-widget" id="chatWidget" title="Chat ao vivo">💬</div> -->
 
     <!-- Hero Section -->
+     <!-- Carousel -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <div
+            class="carousel-slide active"
+            style="
+              background-image: url(./imagens/slide.jpg);
+            "
+          >
+            <div>
+              <h3>🌟 Excelência em Ensino</h3>
+              <p>
+                Mais de 20 anos formando dançarinos com técnica apurada e paixão
+                pela arte. Nossa metodologia única combina tradição e inovação.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              background-image: url(./imagens/slide5.png);
+            "
+          >
+            <div>
+              <h3>🎭 Diversidade de Estilos</h3>
+              <p>
+                Ballet clássico, jazz, hip hop, contemporâneo e muito mais.
+                Encontre o seu estilo e desenvolva todo seu potencial artístico.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              background-image: url(./imagens/slide6.jpg);
+            "
+          >
+            <div>
+              <h3>👨‍🏫 Professores Qualificados</h3>
+              <p>
+                Aprenda com os melhores! Nossa equipe é formada por
+                profissionais experientes e apaixonados pela dança.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow prev">‹</button>
+        <button class="carousel-arrow next">›</button>
+        <div class="carousel-nav">
+          <div class="carousel-dot active"></div>
+          <div class="carousel-dot"></div>
+          <div class="carousel-dot"></div>
+        </div>
+      </div>
+      <!-- FIM do carousel -->
     <section id="home" class="hero">
       <div class="floating-shapes">
         <div class="shape"><i class="devicon-django-plain-wordmark"></i></div>

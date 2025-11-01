@@ -29,8 +29,9 @@
   /* --primary-light: #5f9ea0; */
   --secondary-dark: #0f141a;
   --secondary-light: #ffffff;
-  --accent: #ff8128;
+  --accent: #51c6fc;
   --accent2: #ff8128;
+  --accent3: #eee22c;
   /* --accent: #1ace56; OLD*/
   --gradient-1: linear-gradient(
     135deg,
@@ -39,6 +40,7 @@
   );
   --gradient-2: linear-gradient(135deg, var(--primary-light), var(--accent));
   --gradient-3: linear-gradient(76.45deg, #ff8128 0%, #eee22c 100%);
+  --gradient-4: linear-gradient(130deg, #51c6fc 0%, #0f141a 100%);
 
   --shadow-light: 0 5px 15px rgba(0, 0, 0, 0.1);
   --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -457,7 +459,7 @@ nav {
 }
 
 .btn-primary {
-  background: var(--accent);
+  background: var(--gradient-4);
   color: var(--secondary-light);
 }
 
