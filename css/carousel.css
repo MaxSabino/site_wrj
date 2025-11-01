@@ -146,7 +146,8 @@
   }
 
   .carousel-slide {
-    background-size: cover;
+    background-size: auto;
+    padding: 0 0 6rem 1rem;
   }
 }
 /* @media (max-width: 768px) {
